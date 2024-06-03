@@ -1,0 +1,8 @@
+SELECT Projeto.titulo, Curso.nome
+FROM Projeto, Professor, Curso
+where Projeto.idProfessor=Professor.idProfessor and Professor.idCurso=Curso.idCurso;
+
+Web Crawler	Ciência da Computação
+SirPerf	Ciência da Computação
+OdontoTren	Ciência da Computação
+Avida	Ciência da Computação
