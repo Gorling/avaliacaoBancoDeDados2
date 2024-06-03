@@ -1,0 +1,7 @@
+SELECT distinct(Professor.nome)
+FROM Professor, Projeto
+where Professor.idProfessor not in(select Projeto.idProfessor
+								   from Projeto);
+
+Mirkos Martins
+Sylvio Garcia
